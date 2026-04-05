@@ -1,0 +1,11 @@
+{
+  "$schema": "https://glama.ai/mcp/glama.schema.json",
+  "name": "conkurrence",
+  "description": "AI evaluation toolkit — measure inter-rater agreement (Fleiss' κ, Kendall's W) across multiple LLM providers.",
+  "homepage": "https://conkurrence.com",
+  "license": "BUSL-1.1",
+  "transport": ["stdio"],
+  "installation": {
+    "npm": "conkurrence"
+  }
+}
