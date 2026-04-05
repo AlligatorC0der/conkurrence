@@ -1,0 +1,18 @@
+{
+  "name": "conkurrence",
+  "description": "Statistically validated consensus measurement for AI evaluation pipelines. Uses multiple AI models as independent raters, measures inter-rater reliability with Fleiss' kappa and bootstrap confidence intervals, and routes contested items to human experts.",
+  "version": "1.0.1",
+  "author": {
+    "name": "JE Vectors LLC",
+    "email": "support@conkurrence.com"
+  },
+  "homepage": "https://conkurrence.com",
+  "license": "BUSL-1.1",
+  "repository": "https://github.com/AlligatorC0der/conkurrence",
+  "mcpServers": {
+    "conkurrence": {
+      "command": "npx",
+      "args": ["-y", "conkurrence", "mcp"]
+    }
+  }
+}

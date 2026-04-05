@@ -1,0 +1,28 @@
+{
+  "name": "conkurrence",
+  "description": "AI evaluation toolkit — measure inter-rater agreement across multiple LLM providers using Fleiss' kappa and Kendall's W",
+  "owner": {
+    "name": "JE Vectors LLC",
+    "email": "support@conkurrence.com"
+  },
+  "plugins": [
+    {
+      "name": "conkurrence",
+      "source": {
+        "source": "npm",
+        "package": "conkurrence"
+      },
+      "description": "Statistically validated consensus measurement for AI evaluation pipelines. Run evaluations, compare results, detect trends, and get schema suggestions — all through MCP tools.",
+      "version": "1.0.1",
+      "author": {
+        "name": "JE Vectors LLC",
+        "email": "support@conkurrence.com"
+      },
+      "homepage": "https://conkurrence.com",
+      "license": "BUSL-1.1",
+      "category": "testing",
+      "tags": ["ai-evaluation", "golden-dataset", "llm-testing", "inter-rater-reliability", "fleiss-kappa", "mcp"],
+      "keywords": ["ai-evaluation", "golden-dataset", "llm-testing", "statistical-validation", "mcp"]
+    }
+  ]
+}
