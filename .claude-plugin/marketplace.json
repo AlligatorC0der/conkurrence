@@ -13,7 +13,7 @@
         "package": "conkurrence"
       },
       "description": "Statistically validated consensus measurement for AI evaluation pipelines. Run evaluations, compare results, detect trends, and get schema suggestions — all through MCP tools.",
-      "version": "1.0.1",
+      "version": "1.0.3",
       "author": {
         "name": "JE Vectors LLC",
         "email": "support@conkurrence.com"
