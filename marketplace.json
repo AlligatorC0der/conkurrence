@@ -1,6 +1,6 @@
 {
   "name": "conkurrence",
-  "description": "AI evaluation toolkit — measure inter-rater agreement across multiple LLM providers using Fleiss' kappa and Kendall's W",
+  "description": "Multi-model rating for AI evaluation: measures agreement among model raters (Fleiss' κ, Kendall's W) to find contested items for expert review. Agreement is reliability, not validity. Maintenance mode.",
   "owner": {
     "name": "JE Vectors LLC",
     "email": "support@conkurrence.com"
@@ -12,8 +12,8 @@
         "source": "npm",
         "package": "conkurrence"
       },
-      "description": "Statistically validated consensus measurement for AI evaluation pipelines. Run evaluations, compare results, detect trends, and get schema suggestions — all through MCP tools.",
-      "version": "1.0.3",
+      "description": "Multi-model rating for AI evaluation: measures agreement among model raters (Fleiss' κ, Kendall's W) to find contested items for expert review. Agreement is reliability, not validity. Maintenance mode.",
+      "version": "1.0.5",
       "author": {
         "name": "JE Vectors LLC",
         "email": "support@conkurrence.com"
@@ -22,7 +22,7 @@
       "license": "BUSL-1.1",
       "category": "testing",
       "tags": ["ai-evaluation", "golden-dataset", "llm-testing", "inter-rater-reliability", "fleiss-kappa", "mcp"],
-      "keywords": ["ai-evaluation", "golden-dataset", "llm-testing", "statistical-validation", "mcp"]
+      "keywords": ["ai-evaluation", "golden-dataset", "llm-testing", "inter-rater-reliability", "mcp"]
     }
   ]
 }

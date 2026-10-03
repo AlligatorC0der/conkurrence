@@ -1,8 +1,12 @@
 # ConKurrence
 
-**One command. Find out if your AI agrees with itself.**
+Multi-model rating for AI evaluation: measures agreement among model raters (Fleiss' κ, Kendall's W) to find contested items for expert review.
 
-ConKurrence is a statistically validated consensus measurement toolkit for AI evaluation pipelines. It uses multiple AI models as independent raters, measures inter-rater reliability with Fleiss' kappa and bootstrap confidence intervals, and routes contested items to human experts.
+**What agreement tells you:** where your raters and your criteria are consistent, and where they are not — which items are contested, and whether disagreement comes from the criteria or the raters.
+
+**What it does not tell you:** that the raters are right. Agreement is reliability, not validity. Models can agree confidently on a wrong answer. Use ConKurrence to decide where an expert's judgment is needed and to diagnose your evaluation criteria — not to replace expert-labelled ground truth.
+
+**Status: maintenance mode.** ConKurrence is developed by JE Vectors LLC as the evaluation instrument behind Inqura. It is not accepting purchases and carries no support commitment.
 
 ## Install
 
@@ -42,7 +46,7 @@ Add to your `claude_desktop_config.json`:
 ## Features
 
 - **Multi-model evaluation** — Run your schema against Bedrock, OpenAI, and Gemini models simultaneously
-- **Statistical rigor** — Fleiss' kappa with bootstrap confidence intervals, Kendall's W for validity
+- **Agreement statistics** — Fleiss' kappa with bootstrap confidence intervals; Kendall's W against expert-labelled anchor items
 - **Self-consistency mode** — No API keys needed; uses the host model via MCP Sampling
 - **Schema suggestion** — AI-powered schema design from your data
 - **Trend tracking** — Compare runs over time, detect agreement degradation

@@ -4,16 +4,13 @@ License text copyright (c) 2020 MariaDB Corporation Ab, All Rights Reserved.
 Parameters
 
 Licensor:             JE Vectors LLC
-Licensed Work:        ConKurrence v1.0.0
+Licensed Work:        ConKurrence v1.0.5
                       The Licensed Work is (c) 2026 JE Vectors LLC.
 Additional Use Grant: You may use the Licensed Work for any purpose, including
                       production use, provided that you do not use it to offer
                       a commercial evaluation-as-a-service or competing hosted
                       product that provides substantially the same functionality
-                      as ConKurrence. The first three (3) evaluation runs per
-                      installation do not require a license key. Use beyond
-                      three runs requires a valid commercial license key obtained
-                      from https://conkurrence.com.
+                      as ConKurrence.
 Change Date:          2030-03-28
 Change License:       Apache License, Version 2.0
 
