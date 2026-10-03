@@ -1,7 +1,7 @@
 {
   "name": "conkurrence",
-  "description": "Statistically validated consensus measurement for AI evaluation pipelines. Uses multiple AI models as independent raters, measures inter-rater reliability with Fleiss' kappa and bootstrap confidence intervals, and routes contested items to human experts.",
-  "version": "1.0.3",
+  "description": "Multi-model rating for AI evaluation: measures agreement among model raters (Fleiss' κ, Kendall's W) to find contested items for expert review. Agreement is reliability, not validity. Maintenance mode.",
+  "version": "1.0.5",
   "author": {
     "name": "JE Vectors LLC",
     "email": "support@conkurrence.com"
